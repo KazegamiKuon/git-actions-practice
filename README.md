@@ -18,3 +18,4 @@ git remote set-head origin master
 
 player 2change somethiong
 
+let change something and merge
