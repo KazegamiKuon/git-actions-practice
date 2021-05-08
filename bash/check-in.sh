@@ -5,9 +5,9 @@ git add .
 git commit -m "$mess"
 git push
 git pull
-read -n 1 -p "Is this a good question (y/n)? " answer
+read -n 1 -p "Checkout to dev branch (y/n)? " answer
 if [ "$answer" != "${answer#[Yy]}" ] ;then
     git checkout dev
 else
-    echo "Commit done! enjoy"
+    echo "\nCommit done! enjoy"
 fi
