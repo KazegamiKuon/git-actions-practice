@@ -9,5 +9,5 @@ read -n 1 -p "Checkout to dev branch (y/n)? " answer
 if [ "$answer" != "${answer#[Yy]}" ] ;then
     git checkout dev
 else
-    echo "\nCommit done! enjoy"
+    echo -e "\nCommit done! enjoy"
 fi
