@@ -64,3 +64,5 @@ player 2change somethiong
 let change something and merge
 
 abcskjasbckjabskj
+
+test dev lan 2
