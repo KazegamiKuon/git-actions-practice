@@ -62,9 +62,3 @@ Some helpful script:
 player 2change somethiong
 
 let change something and merge
-
-ascbjhasjhasvjuh
-abcskjasbckjabskj
-
-ascbjhsah
-test dev lan 2
