@@ -49,6 +49,12 @@ git branch -a               - return a list of all known
 git log --oneline           - viewing an old revision
 ```
 
+ajjkhasbjhca
+
+acksbakjscbkja
+
+haha this documents are crazy ascnakc
+
 ## some test readme
 
 player 2change somethiong
