@@ -2,9 +2,10 @@
 read -p "Branch you will move to: " branch_name
 read -p "Number backward step: " backward_step
 if git checkout $branch_name; then
-    if git reset HEAD~$backward_step
+    if git reset HEAD~$backward_step; then
         read -n 1 -p "Will undo change? [Y/n]: " undo_change
         if [ "$undo_change" != "${undo_change#[Yy]}" ] ;then
+            echo -e "\n"
             # this script can see in undo-change.sh
             git reset
             git restore .
