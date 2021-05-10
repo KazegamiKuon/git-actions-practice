@@ -43,17 +43,19 @@ bash ./bash/check-in.sh
 
 Some helpful script:
 
-```script
-git log --branches=*        - view all commits across all branches.
-git branch -a               - return a list of all known
-git log --oneline           - viewing an old revision
-```
-
-ajjkhasbjhca
-
-acksbakjscbkja
-
-haha this documents are crazy ascnakc
+| Command | Scope | Common use cases |
+| --- | --- | --- |
+| git reset | Commit-level | Discard commits in a private branch or throw away uncommited changes |
+| git reset | File-level | Unstage a file |
+| git checkout | Commit-level | Switch between branches or inspect old snapshots |
+| git checkout "commit ID" |   Commit-level  | change head to old commit and you can do somthing at it |
+| git checkout | File-level | Discard changes in the working directory |
+| git revert | Commit-level | Undo commits in a public branch |
+| git revert | File-level | (N/A) |
+| git log --branches=* | | View all commits across all branches. |
+| git branch -a | | Return a list of all known |
+| git log --oneline | | viewing an old revision |
+| git revert HEAD | | create a new commiy with the inverse of the last. |
 
 ## some test readme
 
