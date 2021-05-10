@@ -66,8 +66,5 @@ let change something and merge
 ascbjhasjhasvjuh
 abcskjasbckjabskj
 
-<<<<<<< .merge_file_KiUiDC
 ascbjhsah
-=======
 test dev lan 2
->>>>>>> .merge_file_wmw7sH
