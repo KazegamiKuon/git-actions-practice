@@ -62,5 +62,3 @@ Some helpful script:
 player 2change somethiong
 
 let change something and merge
-
-ksjzCbjkasb
