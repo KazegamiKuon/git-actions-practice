@@ -1,4 +1,0 @@
-name: git-actions-practice
-dependencies:
- - python=3.8
- - pip
