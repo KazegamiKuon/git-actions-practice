@@ -7,4 +7,4 @@ if [ "$export_env" != "${export_env#[Yy]}" ] ;then
     conda list -e > requirements.txt    
 fi
 conda deactivate
-conda env remove --name ${result}
+conda env remove --name ${env_name}
